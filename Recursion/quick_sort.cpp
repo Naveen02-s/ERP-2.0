@@ -32,9 +32,7 @@ int partition(int arr[], int s, int e) {
 
 void quick_sort(int arr[], int s, int e) {
   if(s>=e) return;
-
-  int mid = s + (e-s)/2;
-
+  
   int p = partition(arr, s, e);
 
   quick_sort(arr, s, p-1);
