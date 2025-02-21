@@ -49,6 +49,7 @@ void insertAtHead(Node* &head, int d) {
 
 }
 
+//////////
 void insertAtTail(Node* &tail, int d) {
 
   //create a new node
